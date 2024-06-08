@@ -24,7 +24,7 @@ const reviewRoutes = require("./routes/reviews");
 const MongoDBStore = require("connect-mongo")(session);
 
 const dbUrl =
-  "mongodb+srv://arj_01:learnmongodb@cluster0.tpisghq.mongodb.net/tourbook?retryWrites=true&w=majority";
+  "mongodb+srv://sanskar:Sanskar@12@cluster0.gin4rbn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 mongoose.connect(dbUrl, {
   useNewUrlParser: true,
   useCreateIndex: true,
